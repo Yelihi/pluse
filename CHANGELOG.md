@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.1](https://github.com/Yelihi/pluse/compare/v1.1.0...v1.1.1) (2026-03-24)
+
+
+### Bug Fixes
+
+* ReleasePlease npm install ([24256fa](https://github.com/Yelihi/pluse/commit/24256fa256213a6c9eccae03bdceccf8b3829db5))
+* ReleasePlease npm install ([24256fa](https://github.com/Yelihi/pluse/commit/24256fa256213a6c9eccae03bdceccf8b3829db5))
+* ReleasePlease npm install ([ae50120](https://github.com/Yelihi/pluse/commit/ae50120a401a264f1e6a46a1e7711d557dfeb5e8))
+
 ## [1.1.0](https://github.com/Yelihi/pluse/compare/v1.0.0...v1.1.0) (2026-03-24)
 
 
