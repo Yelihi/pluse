@@ -35,7 +35,7 @@ jobs:
 
       - name: Type check
         if: ${{ steps.release.outputs.release_created }}
-        run: npm run typecheck
+        run: npm run typeCheck
 
       - name: Test
         if: ${{ steps.release.outputs.release_created }}
