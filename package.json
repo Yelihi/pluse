@@ -10,6 +10,7 @@
     "lint:fix": "next lint --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "typeCheck": "tsc --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
     "prepare": "husky",
