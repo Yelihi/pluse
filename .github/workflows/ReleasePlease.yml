@@ -39,7 +39,7 @@ jobs:
 
       - name: Test
         if: ${{ steps.release.outputs.release_created }}
-        run: npm run test:run
+        run: npm run test
 
       - name: Build
         if: ${{ steps.release.outputs.release_created }}
