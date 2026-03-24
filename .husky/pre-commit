@@ -1,0 +1,19 @@
+npx lint-staged
+
+# 1. 타입 체크 (TypeScript)
+if [ -f "package-lock.json" ]; then
+  echo "Running TypeScript check..."
+  npx tsc --noEmit
+fi
+
+# 2. 린팅 (ESLint)
+if [ -f ".eslintrc.js" ] || [ -f ".eslintrc.cjs" ]; then
+  echo "Running ESLint..."
+  npx eslint --fix .
+fi
+
+# 3. 포맷팅 (Prettier)
+if [ -f ".prettierrc" ] || [ -f ".prettierrc.js" ]; then
+  echo "Running Prettier..."
+  npx prettier --write ./**/*.{js,jsx,ts,tsx,json,md}
+fi
