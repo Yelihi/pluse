@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/Yelihi/pluse/compare/v1.0.0...v1.1.0) (2026-03-24)
+
+
+### Features
+
+* version 1.0.0 ([d82045d](https://github.com/Yelihi/pluse/commit/d82045d05e7acc31a2ec09454963bd5939124a91))
+
+
+### Bug Fixes
+
+* ReleasePlease command change ([d82045d](https://github.com/Yelihi/pluse/commit/d82045d05e7acc31a2ec09454963bd5939124a91))
+* ReleasePlease command change ([decfd3e](https://github.com/Yelihi/pluse/commit/decfd3ecd081d597b520e641a3637c55236448aa))
+* ReleasePlease test command ([6a08bc2](https://github.com/Yelihi/pluse/commit/6a08bc231fc2ab140ec5b7756a39d2cdbb824d16))
+
 ## 1.0.0 (2026-03-24)
 
 
