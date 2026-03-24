@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.2](https://github.com/Yelihi/pluse/compare/v1.1.1...v1.1.2) (2026-03-24)
+
+
+### Bug Fixes
+
+* **ci:** ReleasePlease npm 캐시 제거로 oxide 네이티브 바인딩 오류 수정 ([de36506](https://github.com/Yelihi/pluse/commit/de3650697b0c04b0fe146022636d0b7a8f466f36))
+* **ci:** ReleasePlease npm 캐시 제거로 oxide 네이티브 바인딩 오류 수정 ([de36506](https://github.com/Yelihi/pluse/commit/de3650697b0c04b0fe146022636d0b7a8f466f36))
+* **ci:** ReleasePlease npm 캐시 제거로 oxide 네이티브 바인딩 오류 수정 ([4119832](https://github.com/Yelihi/pluse/commit/41198321a3db45750d791b19f7f539b001bbc6eb))
+
 ## [1.1.1](https://github.com/Yelihi/pluse/compare/v1.1.0...v1.1.1) (2026-03-24)
 
 
