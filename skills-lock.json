@@ -16,6 +16,16 @@
       "sourceType": "github",
       "computedHash": "2a902fd0b8f07fa82834ee6fc5410d32d688951586c9a748e856b0b26d996c30"
     },
+    "frontend-test-principles": {
+      "source": "Yelihi/ai-skills",
+      "sourceType": "github",
+      "computedHash": "75e0f1eef96bb12e64772587b62cea03b261f1ea7621fe72394f339d4f3511cd"
+    },
+    "frontend-test-suite": {
+      "source": "Yelihi/ai-skills",
+      "sourceType": "github",
+      "computedHash": "11495026b0ff36f7c2419e7d617b16ee86b87c3e39879c5fd3790539a34d912d"
+    },
     "karpathy-guidelines": {
       "source": "Yelihi/ai-skills",
       "sourceType": "github",
