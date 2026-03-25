@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.3](https://github.com/Yelihi/pluse/compare/v1.1.2...v1.1.3) (2026-03-25)
+
+
+### Bug Fixes
+
+* **ci:** Node 18에서 20으로 업그레이드하여 oxide 빌드 오류 수정 ([0153a89](https://github.com/Yelihi/pluse/commit/0153a891bf873a49ba28883d5aa143c49ad17763))
+* **ci:** Node 18에서 20으로 업그레이드하여 oxide 빌드 오류 수정 ([0153a89](https://github.com/Yelihi/pluse/commit/0153a891bf873a49ba28883d5aa143c49ad17763))
+* **ci:** Node 18에서 20으로 업그레이드하여 oxide 빌드 오류 수정 ([f159888](https://github.com/Yelihi/pluse/commit/f159888b02d9776984c9a1cdcb1eeb191258ac9d))
+
 ## [1.1.2](https://github.com/Yelihi/pluse/compare/v1.1.1...v1.1.2) (2026-03-24)
 
 
