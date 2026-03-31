@@ -1,7 +1,10 @@
 import Link from "next/link";
 
-import { Google, Logo } from "@/shared/components/svg";
+import { Logo } from "@/shared/components/svg";
 import { NativeButton } from "@/shared/components/ui";
+
+// features
+import { AuthToGoogle } from "@/features/auth";
 
 function Auth() {
   return (
@@ -27,10 +30,8 @@ function Auth() {
               </p>
             </div>
             <div className="w-full flex flex-col gap-[12px]">
-              <NativeButton value="Google로 계속하기">
-                <Google />
-              </NativeButton>
-              <Link href="/home">
+              <AuthToGoogle aria-label="Google로 계속하기" />
+              <Link role="link" href="/home" aria-label="게스트로 계속하기">
                 <NativeButton value="게스트로 계속하기" variant="fill" className="bg-gray-100" />
               </Link>
             </div>

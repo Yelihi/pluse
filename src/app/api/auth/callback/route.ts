@@ -1,15 +1,15 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { createServerSupabaseClient } from "@/shared/lib/supabase";
+import { createBrowserSupabaseClient } from "@/shared/lib/supabase";
 
 export async function GET(request: NextRequest) {
-    const { searchParams, origin } = new URL(request.url);
+  const { searchParams, origin } = new URL(request.url);
 
-    const code = searchParams.get("code");
+  const code = searchParams.get("code");
 
-    if (code) {
-        const supabase = await createServerSupabaseClient();
-        await supabase.auth.exchangeCodeForSession(code);
-    }
+  if (code) {
+    const supabase = await createBrowserSupabaseClient();
+    await supabase.auth.exchangeCodeForSession(code);
+  }
 
-    return NextResponse.redirect(`${origin}/session`)
+  return NextResponse.redirect(`${origin}/`);
 }
