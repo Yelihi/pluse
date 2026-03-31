@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/shared/utils/index";
 import { CircleNotchIcon } from "@phosphor-icons/react";
 
