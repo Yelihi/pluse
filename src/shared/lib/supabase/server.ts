@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 
 import type { Database } from "./database.types";
 
-export async function createClient() {
+export async function createServerSupabaseClient() {
   const cookieStore = await cookies();
 
   return createServerClient<Database>(
@@ -24,6 +24,6 @@ export async function createClient() {
           });
         },
       },
-    }
+    },
   );
 }

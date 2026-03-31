@@ -5,7 +5,12 @@ import "reflect-metadata";
 import type { Metadata } from "next";
 import "./globals.css";
 import { JetBrains_Mono, Inter } from "next/font/google";
+
+// shared
 import { cn } from "@/shared/utils";
+
+// features
+import { AuthProvider } from "@/features/auth";
 
 /**
  * font optimization
@@ -22,7 +27,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko" className={cn(inter.className, jetbrainsMono.className)}>
-      <body>{children}</body>
+      <body>
+        <AuthProvider>{children}</AuthProvider>
+      </body>
     </html>
   );
 }

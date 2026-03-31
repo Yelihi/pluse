@@ -1,4 +1,3 @@
-export { createClient as createBrowserSupabaseClient } from "./client";
-export { createClient as createServerSupabaseClient } from "./server";
+export { createBrowserSupabaseClient } from "./client";
 export { updateSession } from "./middleware";
 export type { Database, Tables, TablesInsert, TablesUpdate } from "./database.types";
