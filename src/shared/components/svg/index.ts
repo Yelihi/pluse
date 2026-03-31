@@ -6,3 +6,4 @@ export { Spinner } from "./Spinner";
 export { Camera } from "./Camera";
 export { HalfMoon } from "./HalfMoon";
 export { Locked } from "./Locked";
+export { Logo } from "./Logo";
