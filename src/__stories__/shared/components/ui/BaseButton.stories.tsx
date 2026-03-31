@@ -110,6 +110,13 @@ export const WithChildren: Story = {
   },
 };
 
+export const FullWidth: Story = {
+  args: {
+    fullWidth: true,
+    value: "Full Width",
+  },
+};
+
 export const Pending: Story = {
   args: {
     pending: true,

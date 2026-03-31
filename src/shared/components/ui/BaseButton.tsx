@@ -23,11 +23,16 @@ const baseButtonVariants = cva(
         sm: "px-[11px] py-[7px]",
         md: "px-[16px] py-[8px]",
       },
+      fullWidth: {
+        true: "w-full",
+        false: "",
+      },
     },
     defaultVariants: {
       selected: false,
       theme: "white",
       size: "md",
+      fullWidth: false,
     },
   },
 );
@@ -38,12 +43,13 @@ function BaseButton({
   theme,
   value,
   pending,
+  fullWidth,
   ...props
 }: ButtonPrimitive.Props & VariantProps<typeof baseButtonVariants> & { pending?: boolean }) {
   return (
     <ButtonPrimitive
       data-slot="button"
-      className={cn(baseButtonVariants({ selected, theme, className }))}
+      className={cn(baseButtonVariants({ selected, theme, fullWidth, className }))}
       {...props}
     >
       {pending ? <Spinner /> : props.children}
