@@ -7,3 +7,7 @@ export { Camera } from "./Camera";
 export { HalfMoon } from "./HalfMoon";
 export { Locked } from "./Locked";
 export { Logo } from "./Logo";
+export { OffVideo } from "./OffVideo";
+export { Play } from "./Play";
+export { Pause } from "./Pause";
+export { RotateArrow } from "./RotateArrow";

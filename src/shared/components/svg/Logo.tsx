@@ -1,6 +1,16 @@
-export function Logo() {
+interface LogoProps {
+  size?: number;
+}
+
+export function Logo({ size = 28 }: LogoProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 28 28"
+      fill="none"
+    >
       <path
         d="M14 2.33333L3.5 8.16666V19.8333L14 25.6667L24.5 19.8333V8.16666L14 2.33333Z"
         stroke="white"

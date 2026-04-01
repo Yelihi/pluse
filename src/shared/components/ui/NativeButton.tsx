@@ -37,7 +37,9 @@ function NativeButton({
       {...props}
     >
       <div className="flex justify-center items-center gap-[10px]">
-        <div className="flex justify-center items-center size-[16px]">{props.children}</div>
+        {props.children && (
+          <div className="flex justify-center items-center size-[16px]">{props.children}</div>
+        )}
         <p className="text-[14px] font-normal text-black">{value}</p>
       </div>
     </ButtonPrimitive>
